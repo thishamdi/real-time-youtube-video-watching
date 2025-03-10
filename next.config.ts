@@ -1,15 +1,9 @@
 import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
-  rewrites: async () => {
-    return [
-      {
-        source: '/socket.io',
-        destination: `${process.env.NEXT_PUBLIC_SOCKET_URL}/socket.io`,
-      },
-    ];
-  },
+  output: 'export', // Enable static export
   images: {
+    unoptimized: true, // Fix image loading issues in static export
     domains: ['youtube.com', 'www.youtube.com', 'youtu.be'],
   },
 };
