@@ -1,6 +1,6 @@
 # YouTube Watch Together
 
-![YouTube Watch Together](api/assets/watch-youtube.png)
+![YouTube Watch Together](/assets/watch-youtube.png)
 
 A real-time synchronized YouTube video watching platform that allows users to watch videos together in perfect sync. Create or join rooms and chat with other viewers while watching the same video simultaneously.
 
